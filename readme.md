@@ -20,3 +20,5 @@ Steps:
 * console log out returned data
 * ID info needed within the returned info
 * display data from search to DOM
+
+Note: You may need CORS turned on for this to work.
