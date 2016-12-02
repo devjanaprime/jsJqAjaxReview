@@ -24,6 +24,7 @@ $( document ).ready( function(){
     // loop through results and display on DOM
     var outputText = '';
     for (var i = 0; i < searchResults.length; i++) {
+      // this is the link URL to the detail page for the object using the identifier// see the included image for more
       outputText += '<p><strong><a href="https://archive.org/details/' + searchResults[i].identifier + '">' + searchResults[i].identifier + '</a>:</strong> ' + searchResults[i].description + '</p>';
     } // end for
     $( '#outputDiv' ).html( outputText );
